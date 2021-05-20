@@ -7,7 +7,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(  
                               messaging_service_sid='SERVICE ID', 
                               body='VALORANT',      
-                              to='+639561657728' 
+                              to='<NUMBER OF RECEVIER>' 
                           ) 
  
 print(message.sid)
