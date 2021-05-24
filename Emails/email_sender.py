@@ -17,6 +17,6 @@ email.set_content(html.substitute(name='Tintin'), 'html')
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login('zo4634954@gmail.com', 'lanceparantar12')
+    smtp.login('<YOUR EMAIL>', '<PASSWORD>')
     smtp.send_message(email)
     print('Send Successfully!')
